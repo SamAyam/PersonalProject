@@ -1,0 +1,32 @@
+
+press [ to create a tyranid player
+
+press ] to create a space marine player
+
+
+u j h k = move player (instead of wasd)
+
+p ; l ' = move all troops
+
+
+
+b = player attack
+
+v = troops attack
+
+y = player and troops eat
+
+i = buy a troop
+
+
+g = troops follow 2nd player
+
+t = all troops stop
+
+
+m = all troops find and attack living npcs
+
+n = all troops find and eat dead npcs
+
+
+

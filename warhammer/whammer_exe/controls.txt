@@ -1,0 +1,86 @@
+hotkeys:
+	click any of the 8 menu buttons
+	inside the menu, there may be a draggable icon and a red button
+	click the button to perform the action (buy troop, buy ship, formations, etc)
+	drag the icon from beside a red button to a "hotkey" square
+	press any number key or "-" or "=" to activate the related hotkey
+
+
+` = cheatcode, give the player 1,000,000 biomatter
+
+
+wasd = player direction
+
+
+    click on a troop to select it
+
+    right click anywhere to select all troops
+
+    click on the player to unselect all the troops
+
+    click on a blank spot = selected troops move there
+
+    click on enemy = selected troops move there while in attack mode
+
+    click on dead things = selected troops move there while in eating mode
+
+
+space = player attacks any enemies that are touching or overlapping it
+	(4 hits to break a statue)
+
+
+e = the player and troops eats any dead things touching or overlapping them
+    if the player or an adult troop eats, then player is awarded 100 biomatter and xp
+    if a child troop eats, he becomes an adult
+
+
+arrows = move selected troops in that direction
+
+
+shift = selected troops attack overlapping enemies
+
+
+z = spawn a statue in on planet, 
+    go into "planet assault mode" when in space and overlapping planet
+
+
+q = go to space, or land on an overlapping planet
+
+
+f = all troops follow the player
+
+
+r = all troops stop moving, attacking, and eating
+
+
+x = troops find and attack (like a swarm) living enemies on screen (adults take priority)
+
+
+c = troops find and eat dead things on screen (kids take priority)
+
+
+u = turn "spawning mode" on or off
+    (walk offscreen to the left to spawn a bunch of statues)
+
+
+p = print the number of troops (seen on the background console)
+
+
+o = print the number of statues (alive or dead)
+
+
+i = print the coordinates of the "screen"
+
+
+
+TAB = switch player to a (random) selected troop who is also an adult
+    (keep pressing tab to cycle through remaining troops)
+	BROKEN: old player sprite is deleted
+
+
+
+
+
+
+
+

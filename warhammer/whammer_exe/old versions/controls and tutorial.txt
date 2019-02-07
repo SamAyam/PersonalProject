@@ -1,0 +1,154 @@
+
+
+(there are a few options, so please try each part before trying the next)
+
+
+
+
+___________________________________
+  PART 1  (lonely guy)
+
+
+wasd = player direction
+
+z = spawn a statue
+
+space = player attacks any enemies that are touching or overlapping it
+	(4 hits to break a statue)
+
+e = the player eats any dead things touching or overlapping it
+    if the player eats, then player is awarded 100 biomatter and xp
+
+
+__________________________________________
+  PART 2  (start of a family)
+
+
+q = buy a child troop for 100 biomatter (start with 200)
+
+click on a troop to select it
+
+arrows = move selected troops in that direction
+
+z - spawn more statues
+
+shift = selected troops attack overlapping enemies
+
+e = all troops eat any dead things touching or overlapping them 
+    if kids eat they become adults
+    if adults eat, the player is awarded 100 biomatter and xp
+
+
+
+__________________________________________
+  PART 3  (clicking instead of arrows)
+
+
+click:  
+
+    click on a member of your army to select or unselect it
+
+    click on a blank spot = selected troops move there
+
+    click on enemy = selected troops move there while in attack mode
+
+    click on dead things = selected troops move there while in eating mode
+
+    click on the player to unselect all troops
+
+    right click anywhere to select all troops
+
+
+TAB = switch player to a (random) selected troop who is also an adult
+    (keep pressing tab to cycle through remaining troops)
+
+
+
+________________________________________
+  PART 4 (small army)
+
+
+f = all troops follow the player
+
+
+r = all troops stop moving, attacking, and eating
+
+
+(walk offscreen to the left to spawn a bunch of statues)
+
+
+x = troops find and attack (like a swarm) living enemies on screen (adults take priority)
+
+
+c = troops find and eat dead things on screen (kids take priority)
+
+
+hold q to spawn many kids 
+
+
+repeat
+
+
+__________________________________________
+  PART 5 (large swarm)
+
+
+press f, wait until everyone is close
+(walk around them to group them together)
+
+
+walk offscreen to the left until the screen is full of statues
+
+
+walk right into the middle of the screen
+
+
+press x  (look how cool it is!!)
+
+
+wait a sec...
+
+
+press c  (sooo coool!)
+
+
+(if you have a big enough army, you'll get a spreading diamond of adults, then kids)
+
+
+0 = print the number of troops (seen on the background console)
+
+
+9 = print the number of statues (alive or dead)
+
+
+8 = print the coordinates of the "screen"
+
+___________________________________________
+  PART 6  (team formations)
+
+
+when all enemies are dead press f
+(walk around them again to group them together)
+
+
+when everyone is close together right click to select everyone
+
+
+press any direction with the arrow keys while tapping TAB
+
+
+draw any formation or picture with the army guys
+
+
+
+_______________________________________
+  PART 7  (speed run)
+
+
+start a new game, hold a and q while pressing f, x, and c
+
+see how fast you can get a large army
+
+
+
+
