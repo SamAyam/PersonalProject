@@ -1,0 +1,54 @@
+class player():
+	self.address=address
+	self.from_player=socksend
+	self.to_player=sockrec
+	self.player_to_players=[]
+	self.location = planet/space
+
+
+
+____________________________________________
+(load server from game)
+client: game activates server
+server: get gamemap from file (from game at first)
+
+__________________________________
+(load standalone server)
+server: get game from file
+server: wait for player connection
+client: connects to server
+server: replies with the gamemap
+client: load game, send location to server
+server: if location.players==[]: reply with location.hosting = player address
+
+client: 
+current_locaion.hosting=(player address)
+if player address == serverparent:
+	for guy in current_location.npc:
+		ai(guy)
+
+
+_________________________________
+(player loads new area)
+client: sends "new location"
+server:
+if current_location.players==[]:
+	for guy in location.npc:
+		if guy.persist == False:
+			del guy
+else:
+	for guy in location.npc:
+		guy.hosting = location.players[0] .address
+
+
+
+______________________________________
+server commands:
+(pause)  ?
+(show players)
+(show map)
+(save)
+load
+quit
+
+

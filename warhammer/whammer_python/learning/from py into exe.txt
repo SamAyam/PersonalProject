@@ -1,0 +1,12 @@
+JUST ONE FILE:
+pyinstaller --onefile whammer.py
+
+
+ONE FILE SPEC FOLDER:
+pyi-makespec --onefile --paths=C:/whammer --paths=C:/python33/tools/scripts whammer.py
+
+
+MULTIPLE FILES:
+pyi-makespec --onedir --paths=C:/whammer --paths=C:/python33/tools/scripts whammer.py
+
+
