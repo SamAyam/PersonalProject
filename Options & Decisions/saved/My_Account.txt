@@ -1,0 +1,9 @@
+account_id        =XXXXXXXXXXXX
+application_key   =XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+bucket_id         =XXXXXXXXXXXXXXXXXXXXXXXX
+
+DO NOT ADD SPACES OR QUOTATION MARKS!
+
+Replace the X's with the numbers given to you by the website "backblaze.com"
+
+The code should be the exact same length

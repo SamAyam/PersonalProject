@@ -1,0 +1,33 @@
+
+My Start
+
+This is the staring file. Keep this for reference, or edit it to contain your most common options. (Save a file as "My Start" to save it as the starting file) Save a new file with the same name as an option to create more specific options. For example, choosing practice can open a file with the options piano and guitar.All files can link to other files, making a tree of options. To save a note like this, enter the text in option 1.
+0
+
+The options are spaced out like this when displayed. The first line is an option that can be chosen (either manually or randomly). The number on the next line tells you how many times this option was chosen (if you decide to count them). The saved files can be edited with a text editor like notepad, as long as they are saved with the same style of spacing. This save file can work as a template.
+0
+
+you can also have sub options for extra files related to an option.
+0
+    NOTES:
+like this,
+and this.
+
+example option 4
+0
+
+example option 5
+0
+
+example option 6
+0
+    NOTES:
+note 1
+note 2
+
+...and so on
+0
+    NOTES:
+The End.
+
+
