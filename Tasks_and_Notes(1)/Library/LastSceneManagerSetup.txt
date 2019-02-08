@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Scenes/TasksAndNotesScene.unity
-  isLoaded: 1
-  isActive: 1
