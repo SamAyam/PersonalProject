@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1060896922396126}
+  m_IsPrefabParent: 1
+--- !u!1 &1060896922396126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4906300529075654}
+  - component: {fileID: 114359584228594310}
+  m_Layer: 0
+  m_Name: AppControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4906300529075654
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060896922396126}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 205.20969, y: 748.0646, z: -11.380055}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114359584228594310
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1060896922396126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc2eb9f1e797044d8e25b0ca4637f2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  taskFoldersList: []
+  tasksList: []
+  donesList: []
+  trashList: []
+  habitsList: []
+  snapsList: []
+  goalsList: []
+  projsList: []
+  rewardsList: []
+  notesList: []
+  notebooksList: []
+  noteTrashList: []
+  blankTask: {fileID: 114485343635935710, guid: 30207d47eb1b57e468736293df6a79d1,
+    type: 2}
+  blankHabit: {fileID: 114320780209750202, guid: 7e56689bbc5cb5148aa62f48c7bfa331,
+    type: 2}
+  userPoints: 0
+  todayActivePanel: 1
+  autosave: 0
