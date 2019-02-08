@@ -1,0 +1,393 @@
+MAIN GOAL:
+
+set each "navigation drawer" button to load the proper screen
+
+___________________
+
+work notes:
+
+
+make habit edit screens
+	days of week screen 
+	tags
+	priority?
+	change folder screen? or is this even applicable to habits?
+
+
+finish habitButtonsScript
+	move "makehabiteditbuttons" functions to the new "habit clicked script"
+	design/plan those 10 buttons
+	
+
+
+
+put detete button over search button when a habit is selected
+	add "selected panel" in habits, works just like selecting tasks
+
+make task delete buttons work
+
+
+
+
+
+
+make a way to un-delete things
+
+make all option panels into prefabs, one edit changes all??
+
+add new notebook button to note options panel
+
+make weekly, monthly and yearly match daily layout
+	copy habits options objects when they are ready
+	(same with proj options)
+
+delete buttons need to save after deleting
+
+when viewing overdue tasks, say "overdue" instead of date
+
+
+make user inputs capitalize the first letter
+
+
+(zoom out with arrows all the way past year shows planner)??
+
+make task and notes buttons (in planner view) open those screens
+
+(fixed??): options buttons should load in a different way
+
+make planner (daily) screen
+weekly side
+	month, days covered
+	"this week i commit to"
+	life to do
+	work to do
+	next weekly (or monthly, yearly) habit button?
+	notes?
+daily side
+	day, date
+	today i commit to 
+	time/tasks
+	"top 3"
+	next daily habit button
+	notes
+
+
+make habits asleep screen, trash screen
+
+
+
+test:
+    make daily and weekly tasks load correctly (only show today/thisWeek)
+    test monthly and yearlys
+    make habits load on a given day
+    make today/thisWeek button open the screen
+	same with monthly and weekly
+    "new do it" screen and script
+	a way to delete do its
+    save active screens
+
+
+
+
+navigation drawer
+	change dropdown to 5 toggle boxes?
+make pickfolder button work
+	
+settings menu
+	tabs:    (other tabs opened at bottom of each navigation panel)
+		general senning
+		task settings
+		etc
+	set resetdayofweek with a button in settings
+
+
+make note trash screen work (and habits)
+   make selectAll buttons work
+
+when notes are view only then all inputs become noninterractable
+deselect note after hitting back (button turns off window then opens it?)
+
+make notes move to top at the end of prep screen
+
+add datelabel to comment object
+	set anchors to match tasks so date label is in the right spot after resize
+
+comments can be moved from daily note into a folder (same dropdown as others with another value for the day)
+
+make notes text input grow as the user types
+
+
+back button opens text panel
+	pressing again (while text panel is open) quits the program
+	waiting a few seconds closes text panel
+
+
+
+
+
+
+add "childrentasks" list
+    then copy the code for projects (combine with task code?)
+	
+
+
+make doIts work
+
+
+make tasks also grow when text gets too big?
+
+
+
+remaining task button:
+reminders, (list of date objects), screen:input field(and +), then list of reminders
+	later, open app, reminders show first (then push notifications?)
+
+add variable in new habit menu, specific days
+(can/does this variable apply to weeklies?)
+
+
+
+make projects folder/screen work
+projects are tasks (with a Project label/in a diff masterList)
+	projects are in a different list, have children tasks (and have a tag?)
+
+
+make objects in master lists invisible?
+    or behind the constant background (credits)
+
+
+
+make morning routein open more buttons
+
+(add priority and tags and comments to habits?)
+
+
+when tasks are completed/deleted save the date when it happened
+	show in done/trash view, next to the due date
+
+
+make circle for reward token?
+
+when missed habit but not reset yet, change circle to yellow (and count inARow then?) (dont get points for completing?)
+
+
+make dailies, weeklies, etc different colors
+same for tasks
+
+
+
+
+
+--------------
+make viewdone, viewtrash (and delete, clear)
+	make emptytrash button
+
+
+
+finish daily screen before any other screen
+habit list
+
+
+
+make edit buttons work
+
+remember what page was active on each scene, reload that page when the scene is loaded
+	(also, when saving everything, save this too)
+
+
+taskFolder screen can delete taskFolders (except inbox)
+	when deleted ask "do you want to delete all tasks in this folder?"
+	if no: "move" all tasks in that folder to inbox 
+
+color code project names?(and circle?)
+
+search tasks
+
+task/note reminders: when you open the app, reminders show first 
+	(later use push notifications instead?)
+
+view button?
+
+
+
+layoutview(cmt#)
+on layout view use userTags to put in the boxes for that day
+	if duedate==today and usertag == theTagForThisBox
+	click box to create/edit task in box
+	also create daily/weekly task with proper tag and due date will put task in box
+		userTag = "focus" => task goes in "focus for the day"
+		daily but no tag => task goes in the first of 3 empty unscheduled slots
+screen split:
+	click bar at the top of each to full size that side (like in viewBoth tasks screen)
+	left side has this weeks focus/priority, then work checklist, then life checklist, then nextHabitButton then weekly notes
+	right sides shows date, then has todays focus/priority, then list of blank (or filled) tasks from 5AM-7PM(color shows if task is optional), then 3 blank boxes for task (daily task with no tag), then nextHabitButton, then daily notes
+	how do habits get put in this -> (nexthabit button under weeklyChecklists/3dailyUnscheduled)
+
+
+
+_______________________________
+maybe later (test first):
+
+
+
+if the cursor moves off viewport when the note grows, move the viewport
+
+
+make function to check missed days?
+	instead of logging on every day
+
+
+______________________________________________________________________________________
+research: 
+
+
+
+
+
+------------------------------------------------------------
+left side drawer
+
+dropdown first : tasks, habits, projects, goals, notes
+------
+tasks:
+	dropdown
+	-
+	inbox
+	today
+	this week
+	this month
+	this year
+	mytaskfolders[^]
+	myprojects[^]
+	labels (call them tags)
+	filters
+	-
+	rewards
+	complete
+	trash
+	-
+	settings
+
+**new buttons:
+(rearrange or replace some)
+[[
+on new: folder, date,who?, priority?,label  (ignore this line, use menu instead?)
+single selected: done,dates, edit, comments,reminders
+mult. selected: done, dates,folder, priority,labels
+]]
+[[
+my single selected: dates, edit, comments, reminders, done
+]]
+
+
+can rate difficulty (pre, post)
+this will be hard (projects take this into account)
+that was easier than i thought (in the comments section of a completed task?)
+
+
+
+filters:
+custom filter: name, query (query can be date, any folder, priority, other filter?, label)
+	kinda like how i set up doIts
+
+
+
+
+-------
+habits:
+	sync
+	dropdown
+	-
+	view all habits (view active, inactive)
+	dailies
+	weeklies
+	monthlies
+	yearlies
+	myhabitfolders[^]  ??
+	mygoals[^]
+	labels
+	filters
+	-
+	rewards
+	asleep
+	trash
+	-
+	pause all habits
+	progress(graph)
+	-
+	settings
+	
+view button 
+
+---------
+projects:
+	sync
+	dropdown
+	-
+	view all projects
+	view plan outlines (translated mmap?)
+	open mmap?
+	-
+	rewards
+	complete
+	trash
+	-
+	progress (% bars? or # of remaining tasks? dificulty taken into account?)
+	-
+	settings
+	last sync label
+
+
+------
+goals:
+	sync
+	dropdown
+	-
+	view all goals
+	start yearly plan
+	track progress
+	-
+	rewards
+	complete
+	trash
+	-
+	pause all habits
+	progress
+	-
+	settings
+
+------
+notes:
+	sync
+	dropdown
+	-
+	all notes
+	notebooks(note folders)
+	shared?
+	shortcuts
+	workchat??
+	-
+	complete
+	trash
+	-
+	settings
+	"last sync" label
+
+3 lines, search, ...
+3 lines: top left drawer (or menu button?)
+... button: select notes, add to homescreen, sort by, view options, sync, settings
+
+on top of list, reminders dropdown
+
+
+in note:
+above title: (back) share button, ...(search in note, copy internal link, duplicate, add to shortcuts, add to homescreen, simplify formatting, settings, statistics(words char, lines, etc),delete -----bottom: undo, redo)
+title
+under title: notebook(folder), reminders(click:auto put in reminders; options:setdate, mark as done, clear reminder), tags(or labels), info(updated, created, folder, edit tags, location?)
+edit button (move into other part?)
+
+
+
+
+
+
